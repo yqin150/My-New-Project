@@ -1,0 +1,39 @@
+/*
+Error: Invalid GBK character "\xE4"
+        on line 5 of C:\Users\yqin150\Desktop\homework\src\sass\app.scss
+
+1: /**
+2:  * Created by zhuangpeiyu on 2016/12/30.
+3:  *\/
+4: @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap","variables","mixins";
+5: /* 下面的是我自己的小联系 *\/
+6: %hide {
+7:   display: none;
+8: }
+9: body {
+10:   font-family: $font-primary;
+
+Backtrace:
+C:\Users\yqin150\Desktop\homework\src\sass\app.scss:5
+C:/Users/yqin150/Desktop/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1323:in `rescue in block in find_encoding_error'
+C:/Users/yqin150/Desktop/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1320:in `block in find_encoding_error'
+C:/Users/yqin150/Desktop/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `each'
+C:/Users/yqin150/Desktop/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `each_with_index'
+C:/Users/yqin150/Desktop/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `find_encoding_error'
+C:/Users/yqin150/Desktop/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:896:in `check_sass_encoding'
+C:/Users/yqin150/Desktop/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:423:in `check_encoding!'
+C:/Users/yqin150/Desktop/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:379:in `_to_tree'
+C:/Users/yqin150/Desktop/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+C:/Users/yqin150/Desktop/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+C:/Users/yqin150/Desktop/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+C:/Users/yqin150/Desktop/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+C:/Users/yqin150/Desktop/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+C:/Users/yqin150/Desktop/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+C:/Users/yqin150/Desktop/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+C:/Users/yqin150/Desktop/Koala/bin/sass:18:in `load'
+C:/Users/yqin150/Desktop/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid GBK character \"\xE4\"\A         on line 5 of C:\Users\yqin150\Desktop\homework\src\sass\app.scss\A \A 1: /**\A 2:  * Created by zhuangpeiyu on 2016/12/30.\A 3:  */\A 4: @import \"../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap\",\"variables\",\"mixins\";\A 5: /* 下面的是我自己的小联系 */\A 6: %hide {\A 7:   display: none;\A 8: }\A 9: body {\A 10:   font-family: $font-primary;"; }
